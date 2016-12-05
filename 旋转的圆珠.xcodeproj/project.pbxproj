@@ -15,6 +15,8 @@
 		16EDEF001DF31300001CA78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EDEEFE1DF31300001CA78F /* LaunchScreen.storyboard */; };
 		16EDEF0B1DF31300001CA78F /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF0A1DF31300001CA78F /* _____Tests.m */; };
 		16EDEF161DF31300001CA78F /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF151DF31300001CA78F /* _____UITests.m */; };
+		16EDEF2E1DF31412001CA78F /* BallLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF2D1DF31412001CA78F /* BallLayer.m */; };
+		16EDEF311DF31479001CA78F /* BallPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF301DF31479001CA78F /* BallPointView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		16EDEF111DF31300001CA78F /* 旋转的圆珠UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "旋转的圆珠UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EDEF151DF31300001CA78F /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		16EDEF171DF31300001CA78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16EDEF2C1DF31412001CA78F /* BallLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallLayer.h; sourceTree = "<group>"; };
+		16EDEF2D1DF31412001CA78F /* BallLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallLayer.m; sourceTree = "<group>"; };
+		16EDEF2F1DF31479001CA78F /* BallPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallPointView.h; sourceTree = "<group>"; };
+		16EDEF301DF31479001CA78F /* BallPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallPointView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		16EDEEEF1DF312FF001CA78F /* 旋转的圆珠 */ = {
 			isa = PBXGroup;
 			children = (
+				16EDEF2C1DF31412001CA78F /* BallLayer.h */,
+				16EDEF2D1DF31412001CA78F /* BallLayer.m */,
+				16EDEF2F1DF31479001CA78F /* BallPointView.h */,
+				16EDEF301DF31479001CA78F /* BallPointView.m */,
 				16EDEEF31DF31300001CA78F /* AppDelegate.h */,
 				16EDEEF41DF31300001CA78F /* AppDelegate.m */,
 				16EDEEF61DF31300001CA78F /* ViewController.h */,
@@ -275,7 +285,9 @@
 			files = (
 				16EDEEF81DF31300001CA78F /* ViewController.m in Sources */,
 				16EDEEF51DF31300001CA78F /* AppDelegate.m in Sources */,
+				16EDEF311DF31479001CA78F /* BallPointView.m in Sources */,
 				16EDEEF21DF312FF001CA78F /* main.m in Sources */,
+				16EDEF2E1DF31412001CA78F /* BallLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

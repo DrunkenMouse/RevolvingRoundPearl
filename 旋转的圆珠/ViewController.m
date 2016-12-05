@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BallPointView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    BallPointView *ballView = [[BallPointView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ballView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+    self.view = ballView;
+    
+    
+    
 }
 
 
